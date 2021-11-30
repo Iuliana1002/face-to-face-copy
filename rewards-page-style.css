@@ -75,44 +75,6 @@ h5 {
     padding: 20px 0px;
 }
 
-#homepage {
-    background-color: #A2D2FF;
-}
-
-/* homepage section */
-
-.phones {
-    display: none;
-}
-
-.phone1 {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 10%;
-
-}
-
-.phone2 {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 10%;
-
-}
-
-.paragraphs {
-    margin-top: 70px;
-    color: #565656;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 26px;
-    padding-bottom: 40px;
-}
 
 /* main menu */
 
@@ -356,35 +318,7 @@ h5 a {
 }
 
 @media(min-width: 1200px) {
-    .homepage1 {
-        grid-area: homepage1;
-    }
-    .homepage2 {
-        grid-area: homepage2;
-    }
-    .homepage3 {
-        grid-area: homepage3;
-    }
-    .homepage4 {
-        grid-area: homepage4;
-    }
-
-    .homepage-grid {
-        display: grid;
-        grid-auto-flow: column;
-        grid-template-areas:
-        "homepage1 homepage3"
-        "homepage2 homepage3"
-        "homepage4 homepage3";
-    }
-
-    .paragraphs {
-        text-align: left;
-        width: 376px;
-        padding-left: 67px;
-        font-size: 11px;
-    }
-
+    
     h2 {
         padding-top: 66px;
         text-align: left;
@@ -406,18 +340,7 @@ h5 a {
         padding-left: 337px;
     }
 
-    #homepage {
-        padding-top: 144px;
-        padding-bottom: 70px;
-    }
-
-    .phone1 {
-        display: none;
-    }
-
-    .phones {
-        display: initial;
-    }
+   
 }
 
 @media(min-width: 1440px) {
