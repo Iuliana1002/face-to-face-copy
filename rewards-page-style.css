@@ -18,6 +18,7 @@ html {
 body {
     background-color: white;
     width: 100%;
+	margin:0px
 }
 
 main {
@@ -133,14 +134,14 @@ nav {
 	height: auto
 }
 #banner h2{
-	font-size: 35px;
+	font-size: 30px;
 	color: #FF865E;
 	font-family: acumin-pro, sans-serif;
     font-weight: 800;
     font-style: normal;
 	position: absolute;
-	top:40px;
-	left: 35px
+	top:25%;
+	left: 10%;
 }
 #text p{
 	font-size: 16px;
@@ -149,17 +150,17 @@ nav {
     font-style: normal;
 	color: #FF865E;
 	text-align: center;
-	padding: 20px 30px
+	padding: 10px 30px 30px 30px
 	
 }
 #text h4 {
-	font-size: 16px;
+	font-size: 20px;
 	font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-style: normal;
 	color: #FF865E;
 	text-align: center;
-	padding: 20px 60px
+	padding: 20px 60px 10px 60px
 	}
 .rewards-1{
 	background-color: #A2D2FF;
@@ -170,6 +171,7 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	overflow: hidden;	
+	margin:0px
 	}
 .rewards-2{
 	background-color: #FEF9EF;
@@ -180,6 +182,7 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	overflow: hidden;
+	margin:0px
 	}
 .rewards-2 h3{
 	font-size: 30px;
@@ -196,7 +199,8 @@ nav {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	overflow: hidden
+	overflow: hidden;
+	margin:0px
 	}
 .rewards-3 h3{
 	font-size: 30px;
@@ -472,30 +476,98 @@ h5 a {
 }
 
 @media(min-width: 700px) {
-    h2 {
-        padding-top: 66px;
-        text-align: center;
-        font-size: 40px;
-        font-family: acumin-pro, sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        padding-left: 0;
-    }
-
-    h3 {
-        text-align: center;
-        font-size: 45px;
-        font-family: acumin-pro, sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        color: #2C698D;
-        text-transform: uppercase;
-        padding-left: 0;
-    }
+	#banner h2{
+		top:30%;
+		left: 10%;
+		font-size: 45px
+	}
 }
 
-@media (min-width: 1140px) {
-    footer {
+@media (min-width: 1040px) {
+    
+	
+	#banner h2{
+		top:30%;
+		left: 15%;
+		font-size: 55px
+	}
+	#banner img{
+		height: 700px;
+		width: 100%;
+		object-fit: cover
+	}
+	#text h4{
+		font-size: 22px;
+		padding: 30px 100px 10px 100px
+	}
+	#text p{
+		font-size: 20px;
+		padding: 20px 150px 40px 150px 
+	}
+	.slide-show{
+		width: 100%;
+		display:flex;
+		animation: none;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin: 0px
+		}
+	.slide-show-3{
+		width: 100%;
+		display:flex;
+		animation: none;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin: 0px
+		}
+	.reward-box{
+	width: 45%;
+	padding-bottom: 30px;
+	margin-top: 20px
+	}
+.reward-box img{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	margin-top:0px;
+	border-radius: 10px;
+		
+}
+.reward-box h4{
+	font-size: 22px;
+	}
+
+.gift-card p{
+	font-size: 18px;
+	}
+.gift-card img{
+	width: 20px;
+	height: auto;
+	border-radius: 0px
+		
+}
+
+.coins p{
+	font-size: 18px;
+	}
+	
+.coins img{
+	width: 20px;
+	height: auto;
+	border-radius: 0px
+	}
+.btn {
+		font-size: 20px;
+	
+	}
+	
+	.rewards-1, .rewards-2, .rewards-3{
+		overflow: visible
+	}
+	
+	footer {
         padding-top: 100px;
     }
 
@@ -530,26 +602,11 @@ h5 a {
 
 @media(min-width: 1200px) {
     
-    h2 {
-        padding-top: 66px;
-        text-align: left;
-        font-size: 40px;
-        font-family: acumin-pro, sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        padding-left: 270px;
-    }
-
-    h3 {
-        text-align: left;
-        font-size: 45px;
-        font-family: acumin-pro, sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        color: #2C698D;
-        text-transform: uppercase;
-        padding-left: 337px;
-    }
+   #banner h2{
+		top:30%;
+		left: 15%;
+		font-size: 55px
+	}
 
    
 }
@@ -587,9 +644,16 @@ h5 a {
         color: #3895D3;
         font-weight: bold;
     }
+	#banner h2{
+		top:30%;
+		left: 15%;
+		font-size: 60px
+	}
+	.reward-box{
+	width: 30%;
 }
 
 .nav-active{
     transform: translateX(0%);
-}/* CSS Document */
+	}/* CSS Document */}
 
