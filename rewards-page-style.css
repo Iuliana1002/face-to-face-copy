@@ -46,24 +46,6 @@ h1 {
     color: #2C698D;
 }
 
-h2 {
-    padding-top: 66px;
-    padding-left: 39px;
-    font-size: 40px;
-    font-family: acumin-pro, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-}
-
-h3 {
-    padding-left: 60px;
-    font-size: 45px;
-    font-family: acumin-pro, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    color: #2C698D;
-    text-transform: uppercase;
-}
 
 h5 {
     text-align: center;
@@ -132,6 +114,51 @@ nav {
 
 .pop {
     display: block;
+}
+/*rewards section*/
+#top-part{
+	background-color: #FEF9EF;
+	
+	
+}
+#banner{
+	width: 100%;
+	height: auto;
+	position: relative
+}
+#banner img{
+	width: 100%;
+	height: auto
+}
+#banner h2{
+	font-size: 35px;
+	color: #FF865E;
+	font-family: acumin-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+	position: absolute;
+	top:40px;
+	left: 35px
+}
+#text p{
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color: #FF865E;
+	text-align: center;
+	padding: 20px 30px
+	
+}
+#text h4 {
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+	color: #FF865E;
+	text-align: center;
+	padding: 20px 60px
+	
 }
 
 /* contact section */
