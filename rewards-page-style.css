@@ -78,6 +78,7 @@ nav {
     transition: transform 0.5s ease-in;
     padding-top: 100px;
     overflow-y: scroll;
+	
 }
 .mainmenu a {
     font-family: "Montserrat";
@@ -124,7 +125,8 @@ nav {
 #banner{
 	width: 100%;
 	height: auto;
-	position: relative
+	position: relative;
+	
 }
 #banner img{
 	width: 100%;
@@ -159,19 +161,62 @@ nav {
 	text-align: center;
 	padding: 20px 60px
 	}
-.rewards{
+.rewards-1{
 	background-color: #A2D2FF;
 	width: 100%;
 	height: auto;
 	padding: 30px;
 	display: flex;
-	flex-direction: column
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;	
 	}
-.rewards h3{
+.rewards-2{
+	background-color: #FEF9EF;
+	width: 100%;
+	height: auto;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+	}
+.rewards-2 h3{
+	font-size: 30px;
+	color:#FF865E;
+	text-align: center;
+	margin: 0px auto;
+	font-family: "Montserrat", sans-serif;
+}
+.rewards-3{
+	background-color: #E3F6F5;
+	width: 100%;
+	height: auto;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden
+	}
+.rewards-3 h3{
 	font-size: 30px;
 	color:#668FB5;
 	text-align: center;
+	margin: 0px auto;
 	font-family: "Montserrat", sans-serif;
+}
+.rewards-1 h3{
+	font-size: 30px;
+	color:#668FB5;
+	text-align: center;
+	margin: 0px auto;
+	font-family: "Montserrat", sans-serif;
+}
+.rewards-2 .reward-box h4{
+	color:#FF865E
+}
+.rewards-2 .btn{
+	color:#FF865E
 }
 .reward-box{
 	background-color: #FFFFFF;
@@ -180,14 +225,18 @@ nav {
 	border-radius: 10px;
 	width: 80%;
 	height: auto;
-	margin: 20px auto;
-	padding: 10px 10px
+	margin: 20px ;
+	padding: auto
 	}
 .reward-box img{
-	width: 98%;
-	height: auto;
-	margin: auto;
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	margin-top:0px;
 	border-radius: 10px;
+	position: relative;
+	float: left;
+	transition-timing-function: ease-in;
 	
 }
 .reward-box h4{
@@ -250,10 +299,50 @@ nav {
 	font-weight: 600;
 	font-family: "Montserrat", sans-serif;
 	cursor: pointer;
-	
+	}
+.slide-show{
+	display: flex;
+	position:relative;
+	width: 500%;
+	margin: 0px;
+	left:0px;
+	animation: 20s slide-show infinite;
+	padding-bottom: 30px
+}
+ .slide-show-3{
+	display: flex;
+	position:relative;
+	width: 300%;
+	margin: 0px;
+	left:0px;
+	animation:15s slide-show infinite;
+	padding-bottom: 30px
 	
 }
+@keyframes slide-show-3 {
+		0%{left:0}
+		15%{left:0}
+		33.3%{left:-100%}
+		60%{left:-100%}
+	    66.6%{left:-200%}
+		99%{left:-200%}
+	    100%{left:-200%}
+	
+		 }
 
+@keyframes slide-show{
+		0%{left:0}
+		15%{left:0}
+		20%{left:-100%}
+		35%{left:-100%}
+	    40%{left:-200%}
+		55%{left:-200%}
+		60%{left:-300%}
+		75%{left:-300%}
+		80%{left:-400%}
+		95%{left:-400%}
+		100%{left:-400%}
+	    }
 
 
 /* contact section */
